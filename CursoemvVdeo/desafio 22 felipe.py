@@ -1,0 +1,13 @@
+nome = input('digite seu nome completo: ')
+max = nome.upper()
+min = nome.lower()
+lista = nome.split()
+nl = ''.join(lista)
+nl = len(nl)
+primeiro = lista[0]
+primeiro = len(primeiro)
+print('nome: {}'.format(nome))
+print('nome letras maiusculas: {}'.format(max))
+print('nome letras minisculas: {}'.format(min))
+print('letras sem espaço: {}'.format(nl))
+print('qtde letras primeiro nome: {}'.format(primeiro))

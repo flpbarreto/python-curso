@@ -1,0 +1,5 @@
+nome = input('digite seu nome completo: ')
+nome = nome.strip()
+nome = nome.upper()
+a = nome.find('SILVA')
+print(a != -1)
